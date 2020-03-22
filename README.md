@@ -1,31 +1,33 @@
 # Google Translate Bot with Selenium API
 <img src="https://github.com/cnkay/google_translator/blob/master/images/build.svg"> <img src="https://github.com/cnkay/google_translator/blob/master/images/python.svg"> <img src="https://github.com/cnkay/google_translator/blob/master/images/os.svg"> <img src="https://github.com/cnkay/google_translator/blob/master/images/license.svg">
 
+### Ubuntu
+
+<img src="https://github.com/cnkay/google_translator/blob/master/images/ubuntu.png">
+
+### Windows
+
+<img src="https://github.com/cnkay/google_translator/blob/master/images/windows.png">
 
 Console application for word or sentence translate.
 
 **!!!In order for the program to work properly, you need to download the compatible web driver to the same folder as the google.py.**
 
-## Dependencies
+## Requirement
+
+Selenium
 ```
 pip3 install selenium
 ```
-## Run
-```
-python3 google.py
-```
 ### Attention!
+
 **Browser's and web drivers versions must be the same!**
 
 ## Check Browser Version
 
 For Firefox : Open menu > Help > About Firefox
 
-<img src="https://github.com/cnkay/google_translator/blob/master/images/about_firefox.png">
-
 For Chrome/Chromium : chrome://settings/help
-
-<img src="https://github.com/cnkay/google_translator/blob/master/images/about_chrome.png">
 
 ## Download Compatible Web Driver
 
@@ -39,6 +41,7 @@ For Chrome/Chromium : https://chromedriver.chromium.org/downloads
 More information about XPath : https://www.w3schools.com/xml/xml_xpath.asp
 
 ## Supported Languages
+
 | #    | Language                      |
 | :--- | :---------------------------- |
 | 1    | Afrikaans                     |
@@ -143,69 +146,10 @@ More information about XPath : https://www.w3schools.com/xml/xml_xpath.asp
 | 100  | Yoruba                        |
 | 101  | Zulu                          |
 
-## Mode Selection Menu
-```
-  __ _  ___   ___   __ _| | ___ 
- / _` |/ _ \ / _ \ / _` | |/ _ \
-| (_| | (_) | (_) | (_| | |  __/
- \__, |\___/ \___/ \__, |_|\___|
- |___/             |___/        
- _                       _       _       
-| |_ _ __ __ _ _ __  ___| | __ _| |_ ___ 
-| __| '__/ _` | '_ \/ __| |/ _` | __/ _ \
-| |_| | | (_| | | | \__ \ | (_| | ||  __/
- \__|_|  \__,_|_| |_|___/_|\__,_|\__\___|
-            
 
-
-**********************
-*                    *
-*   Mode Selection   *
-*                    *
-**********************
-
-0) Test All Languages
-1) Multiple Word Translate
-2) Single Word Translate
-
-Selection : 
+## Run
 
 ```
-## Multiple Word Translation Result
-
+python3 google.py
 ```
-  __ _  ___   ___   __ _| | ___ 
- / _` |/ _ \ / _ \ / _` | |/ _ \
-| (_| | (_) | (_) | (_| | |  __/
- \__, |\___/ \___/ \__, |_|\___|
- |___/             |___/        
- _                       _       _       
-| |_ _ __ __ _ _ __  ___| | __ _| |_ ___ 
-| __| '__/ _` | '_ \/ __| |/ _` | __/ _ \
-| |_| | | (_| | | | \__ \ | (_| | ||  __/
- \__|_|  \__,_|_| |_|___/_|\__,_|\__\___|
-            
-
-
-
-***************************
-Mode : Multiple
-From : English
-To : Turkish
-Word Count : 2999
-Input File Path : /home/cenk/Desktop/3000CleanEnglish.txt
-Input File Seperator : endline
-Output File Name : result.txt
-Output File Seperator : endline
-Start Time : 15:41:04
-***************************
-
-Percent: [------------------->] 100%
-3000 words translated and saved to result.txt file!
-
-Start Time : 15:41:04
-End Time : 16:01:56
-
-```
-
 
